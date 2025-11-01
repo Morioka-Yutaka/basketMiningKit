@@ -41,18 +41,14 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
         LIFT          : Lift value (measure of association strength)  
 
    ###  Usage Example :  
-    ~~~sas
     %association_rule_mining(
       inds=AE,
       person=USUBJID,
       item=AEDECOD,
       itemset_length=$500
     );
-    ~~~
     
-  ---------------------------------------------------------------------------
-     Association Metrics and Derivations
-  ---------------------------------------------------------------------------
+    ### Association Metrics and Derivations
     Let:  
       N           = Total number of unique transactions (distinct IDs)  
       count(X)    = Number of transactions containing item X  
