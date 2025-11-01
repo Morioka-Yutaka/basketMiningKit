@@ -8,7 +8,7 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
                    to efficiently compute 1-item and 2-item  
                    co-occurrence frequencies and derive key association metrics.  
 
-  Overview   :  
+  ### Overview   :  
     - The macro takes a transactional dataset (ID, ITEM) as input.
     - It counts single-item occurrences and two-item co-occurrences
        across unique transactions.
@@ -18,7 +18,7 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
         * Confidence
         * Lift
   
-  Parameters :  
+  ### Parameters :  
   ~~~text
     inds=             Input dataset name (e.g., AE)
     person=           Transaction or subject identifier (e.g., USUBJID)
@@ -26,12 +26,13 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
     itemset_length=   Length for character variable VECTOR (default: $500)
                       VECTOR is used to display the rule "ITEM --> ITEM2".
   ~~~
-  Input  :  
+
+  ### Input  :  
     - Dataset &inds. containing at least the variables &person. and &item.  
     - The macro internally creates &inds._nodup as a unique (ID, ITEM) dataset  
       to avoid double-counting within the same transaction.  
 
-  Output :  
+  ### Output :  
     - Dataset: association_rule_mining  
       Variables:  
         VECTOR        : Display text for the rule (e.g., "Headache --> Nausea")  
@@ -41,7 +42,7 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
         CONFIDENCE    : Confidence value (conditional probability)  
         LIFT          : Lift value (measure of association strength)  
 
-    Usage Example :  
+   ###  Usage Example :  
     ~~~sas
     %association_rule_mining(
       inds=AE,
