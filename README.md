@@ -61,6 +61,8 @@ It outputs 1-item statistics and 2-item directional association rules
       item=AEDECOD,
       itemset_length=$500
     );
+
+<img width="768" height="270" alt="Image" src="https://github.com/user-attachments/assets/c31ae3ba-bcfb-4fa9-8d51-f9a25922b57b" />
     
 ### Association Metrics and Derivations
       Let:  
