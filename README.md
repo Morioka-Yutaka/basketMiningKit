@@ -8,7 +8,7 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
                    to efficiently compute 1-item and 2-item  
                    co-occurrence frequencies and derive key association metrics.  
 
-  ### Overview  
+  ### Overview   :
     - The macro takes a transactional dataset (ID, ITEM) as input.
     - It counts single-item occurrences and two-item co-occurrences across unique transactions.
     - It outputs 1-item statistics and 2-item directional association rules
