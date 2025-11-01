@@ -25,7 +25,7 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
     item=             Item variable representing product/event (e.g., AEDECOD)
     itemset_length=   Length for character variable VECTOR (default: $500)
                       VECTOR is used to display the rule "ITEM --> ITEM2".
-~~~
+  ~~~
   Input  :  
     - Dataset &inds. containing at least the variables &person. and &item.  
     - The macro internally creates &inds._nodup as a unique (ID, ITEM) dataset  
