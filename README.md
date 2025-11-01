@@ -4,10 +4,9 @@ Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-ite
 <img width="359" height="359" alt="Image" src="https://github.com/user-attachments/assets/b0a762a0-766b-4785-a079-88a61f8b25f5" />
 
 ## %association_rule_mining() macro  
-  Purpose    : Performs Market Basket (Association Rule) Analysis   
-                   to efficiently compute 1-item and 2-item  
-                   co-occurrence frequencies and derive key association metrics. 
-  ### Overview   :
+  Purpose    : Performs Market Basket (Association Rule) Analysis to efficiently compute 1-item and 2-item co-occurrence frequencies and derive key association metrics. 
+
+### Overview   :
     - The macro takes a transactional dataset (ID, ITEM) as input.
     - It counts single-item occurrences and two-item co-occurrences across unique transactions.
     - It outputs 1-item statistics and 2-item directional association rules
