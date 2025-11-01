@@ -15,14 +15,14 @@ It outputs 1-item statistics and 2-item directional association rules
         * Confidence
         * Lift
   
-  ### Parameters :  
+### Parameters :  
     inds=             Input dataset name (e.g., AE)
     person=           Transaction or subject identifier (e.g., USUBJID)
     item=             Item variable representing product/event (e.g., AEDECOD)
     itemset_length=   Length for character variable VECTOR (default: $500)
                       VECTOR is used to display the rule "ITEM --> ITEM2".
 
-  ### Input  :  
+### Input  :  
     - Dataset &inds. containing at least the variables &person. and &item.  
     - The macro internally creates &inds._nodup as a unique (ID, ITEM) dataset  
       to avoid double-counting within the same transaction.  
