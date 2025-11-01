@@ -38,22 +38,22 @@ It outputs 1-item statistics and 2-item directional association rules
         LIFT          : Lift value (measure of association strength)  
 
    ###  Usage Example :  
-   data AE;
-   USUBJID="1";AEDECOD="Headache";output;
-   USUBJID="1";AEDECOD="Nausea";output;
-   USUBJID="1";AEDECOD="Fatigue";output;
-   USUBJID="1";AEDECOD="Diarrhea";output;
-   USUBJID="2";AEDECOD="Fatigue";output;
-   USUBJID="2";AEDECOD="Diarrhea";output;
-   USUBJID="3";AEDECOD="Headache";output;
-   USUBJID="3";AEDECOD="Diarrhea";output;
-   USUBJID="4";AEDECOD="Headache";output;
-   USUBJID="4";AEDECOD="Nausea";output;
-   USUBJID="4";AEDECOD="Diarrhea";output;
-   USUBJID="5";AEDECOD="Headache";output;
-   USUBJID="5";AEDECOD="Diarrhea";output;
-   USUBJID="5";AEDECOD="Rash";output;
-   run;
+    data AE;
+    USUBJID="1";AEDECOD="Headache";output;
+    USUBJID="1";AEDECOD="Nausea";output;
+    USUBJID="1";AEDECOD="Fatigue";output;
+    USUBJID="1";AEDECOD="Diarrhea";output;
+    USUBJID="2";AEDECOD="Fatigue";output;
+    USUBJID="2";AEDECOD="Diarrhea";output;
+    USUBJID="3";AEDECOD="Headache";output;
+    USUBJID="3";AEDECOD="Diarrhea";output;
+    USUBJID="4";AEDECOD="Headache";output;
+    USUBJID="4";AEDECOD="Nausea";output;
+    USUBJID="4";AEDECOD="Diarrhea";output;
+    USUBJID="5";AEDECOD="Headache";output;
+    USUBJID="5";AEDECOD="Diarrhea";output;
+    USUBJID="5";AEDECOD="Rash";output;
+    run;
 
     %association_rule_mining(
       inds=AE,
