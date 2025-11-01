@@ -46,8 +46,8 @@ It outputs 1-item statistics and 2-item directional association rules
     );
     
 ### Association Metrics and Derivations
-  Let:  
-    N           = Total number of unique transactions (distinct IDs)  
+      Let:  
+      N           = Total number of unique transactions (distinct IDs)  
       count(X)    = Number of transactions containing item X  
       count(X,Y)  = Number of transactions containing both X and Y  
       P(A)        = Probability of event A = count(A) / N  
