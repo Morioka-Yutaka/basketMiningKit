@@ -1,10 +1,11 @@
 # basketMiningKit
-Performs Market Basket (Association Rule) Analysis  to efficiently compute 1-item and 2-item  co-occurrence frequencies and derive key association metrics.  
+Perform association analysis using only Base SAS functionality, without using Enterprise Miner or SAS Viya .  
 
 <img width="359" height="359" alt="Image" src="https://github.com/user-attachments/assets/b0a762a0-766b-4785-a079-88a61f8b25f5" />
 
 ## %association_rule_mining() macro  
-  Purpose    : Performs Market Basket (Association Rule) Analysis to efficiently compute 1-item and 2-item co-occurrence frequencies and derive key association metrics. 
+  Purpose    : Perform association analysis using only Base SAS functionality,without using Enterprise Miner or SAS Viya .  
+                The maximum itemset size is limited to 2, and no minimum support or confidence thresholds are applied. 
 
 ### Overview   :
 The macro takes a transactional dataset (ID, ITEM) as input.　　
